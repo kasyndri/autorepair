@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <title>Syn's Auto Repair</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <span id="phone">
+        <i class="fa">&#xf095;</i>
+        <span>(281)383-8038</span>
+      </span>
+      <span id="email">
+        <i style="font-size: 16px;" class="material-icons">email</i>
+        <span>SynsAutoRepair@gmail.com</span>
+      </span>
+      <span id="address">
+        <i class="fa">&#xf277;</i>
+        <span>17814 Asphodel Ln 77379 Spring, TX</span>
+      </span>
+    </header>
+
+    <div class="" id="oembanner">
+      <img src="images/oem/benz.png" alt="">
+      <img src="images/oem/bmw.png" alt="">
+      <img src="images/oem/porsche.png" alt="">
+      <img src="images/oem/audi.png" alt="">
+      <img src="images/oem/vw.png" alt="">
+      <img src="images/oem/mini.png" alt="">
+      <img src="images/oem/honda.png" alt="">
+      <img src="images/oem/acura.png" alt="">
+      <img src="images/oem/toyota.png" alt="">
+      <img src="images/oem/lexus.png" alt="">
+      <img src="images/oem/ford.png" alt="">
+      <img src="images/oem/lincoln.png" alt="">
+      <img src="images/oem/mercury.png" alt="">
+      <img src="images/oem/gm.png" alt="">
+      <img src="images/oem/gmc.png" alt="">
+      <img src="images/oem/cadillac.png" alt="">
+      <img src="images/oem/chevy.png" alt="">
+      <img src="images/oem/chrysler.png" alt="">
+      <img src="images/oem/jeep.png" alt="">
+      <img src="images/oem/dodge.png" alt="">
+      <img src="images/oem/tesla.png" alt="">
+    </div>
+
+    <div class="" id="navbar">
+
+    </div>
+
+    <div id="title">
+      <img src="images/horns36px.png" alt="" id="hornsimg">
+      <h1>Syn's Auto Repair</h1>
+    </div>
+
+    <footer>
+
+    </footer>
+  </body>
+
+  <script type="text/javascript">
+    $("#address").click(function() {
+      window.open("https://www.google.com/maps/place/17814+Asphodel+Ln,+Spring,+TX+77379/@30.0265554,-95.4977288,17z/data=!3m1!4b1!4m5!3m4!1s0x8640ccbed0547801:0x9a9aaf68d4fd68fe!8m2!3d30.0265554!4d-95.4955401");
+    });
+
+    $("#phone").click(function() {
+      var phone = "+12813838038";
+      var tempVar = $('<input>').val(phone).appendTo('body').select();
+      document.execCommand("copy");
+      $(tempVar).remove();
+    });
+  </script>
+</html>
