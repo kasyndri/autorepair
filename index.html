@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Syn's Auto Repair</title>
+    <link rel="icon" href="images/horns24px.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -10,15 +11,15 @@
   </head>
   <body>
     <header>
-      <span id="phone">
+      <span id="phone" class="header-buttons">
         <i class="fa">&#xf095;</i>
         <span>(281)383-8038</span>
       </span>
-      <span id="email">
+      <span id="email" class="header-buttons">
         <i style="font-size: 16px;" class="material-icons">email</i>
         <span>SynsAutoRepair@gmail.com</span>
       </span>
-      <span id="address">
+      <span id="address" class="header-buttons">
         <i class="fa">&#xf277;</i>
         <span>Houston, TX</span>
       </span>
@@ -48,9 +49,16 @@
       <img src="images/oem/tesla.png" alt="">
     </div>
 
-    <div class="" id="navbar">
+    <div class="border"></div>
 
+    <div class="" id="navbar">
+      <button type="button" name="button" class="nav-buttons" id="home" onclick="">HOME</button>
+      <button type="button" name="button" class="nav-buttons" id="work">MY WORK</button>
+      <button type="button" name="button" class="nav-buttons" id="about">ABOUT ME</button>
+      <button type="button" name="button" class="nav-buttons" id="discounts">DISCOUNTS</button>
     </div>
+
+    <div class="border"></div>
 
     <div id="title">
       <img src="images/horns36px.png" alt="" id="hornsimg">
@@ -73,5 +81,9 @@
       document.execCommand("copy");
       $(tempVar).remove();
     });
+
+    $(".nav-buttons").click(function {
+
+    })
   </script>
 </html>
