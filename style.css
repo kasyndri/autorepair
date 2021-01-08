@@ -99,10 +99,8 @@ header {
 .tooltip {
   position: relative;
   display: inline-block;
-  transition: 0;
 }
 .tooltip .tooltiptext {
-  transition: 0;
   visibility: hidden;
   width: 120px;
   background-color: black;
