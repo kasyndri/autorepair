@@ -38,12 +38,12 @@ header {
 #address {
   grid-area: "address"
 }
-#address:hover {
+/*#address:hover {
   background-color: black;
   border: 1px solid white;
   border-radius: 5px;
   cursor: pointer;
-}
+}*/
 #title {
   display: flex;
   align-items: center;
