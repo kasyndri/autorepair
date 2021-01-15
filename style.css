@@ -3,6 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-image: url("images/graphics/car.jpg");
+  background-blend-mode: exclusion;
   color: black;
   margin: 0;
   font-family: sans-serif;
@@ -14,6 +15,8 @@ h1 {
   justify-content: center;
   font-size: 48px;
   text-shadow: 0 0 10px red;
+  text-decoration-line: underline;
+  text-decoration-style:
 }
 
 header {
@@ -21,17 +24,18 @@ header {
   display: grid;
   grid-template-areas:
     "phone email address";
-  background-color: #636e72;
+  background-color: black;
   padding: 5px;
   font-size: 16px;
   color: white;
 }
 .header-buttons {
-  transition: .2s;
+  transition .2s;
+  outline: none;
+  border: 1px solid black;
 }
 .header-buttons:hover {
-  background-color: black;
-  border: 1px solid white;
+  border: 1px solid red;
   border-radius: 5px;
   cursor: copy;
 }
@@ -94,6 +98,7 @@ header {
   transition: .2s;
   margin: 10px 50px 10px 50px;
   font-weight: 900;
+  outline: none;
 }
 .nav-buttons:hover {
   border: 3px solid #d63031;
@@ -102,7 +107,7 @@ header {
 }
 .border {
   margin: 10px 0 10px 0;
-  border: 1px solid gray;
+  border: 1px solid white;
 }
 .tooltip {
   position: relative;
