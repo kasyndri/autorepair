@@ -9,7 +9,6 @@ body {
   font-family: sans-serif;
 }
 
-
 h1 {
   display: inline;
   justify-content: center;
@@ -30,7 +29,7 @@ header {
   color: white;
 }
 .header-buttons {
-  transition .2s;
+  transition: .2s;
   outline: none;
   border: 1px solid black;
 }
@@ -38,6 +37,10 @@ header {
   border: 1px solid red;
   border-radius: 5px;
   cursor: copy;
+}
+.header-buttons:active {
+  transition: .05s;
+  border: 1px solid green;
 }
 #phone {
   grid-area: "phone"
@@ -104,6 +107,10 @@ header {
   border: 3px solid #d63031;
   cursor: pointer;
   padding: 10px 30px 10px 30px;
+}
+.nav-buttons:active {
+  transition: .05s;
+  border: 3px solid green;
 }
 .border {
   margin: 10px 0 10px 0;
