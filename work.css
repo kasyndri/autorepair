@@ -1,6 +1,40 @@
 body {
   background-image: url("");
 }
+a {
+  display: block;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
 #title {
   color: white;
+}
+.graphic-container {
+  margin-top: 30px;
+}
+.slides {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.graphic-text {
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+.small-graphic-text {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
