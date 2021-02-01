@@ -91,6 +91,7 @@ header {
   display: grid;
   grid-template-areas: "home work about discount";
 }
+
 .nav-buttons {
   border: 3px solid black;
   border-radius: 20px;
@@ -162,3 +163,56 @@ header {
   height: 150px;
   border: 1px solid yellow;
 }*/
+@media screen and (max-width: 900px) {
+  body {
+    background-size: cover;
+  }
+  header {
+    grid-template-areas:
+      "phone email address"
+  }
+  .header-buttons {
+    margin: 1px;
+    padding: 0px;
+  }
+  .nav-buttons {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  #navbar {
+    display: grid;
+    grid-template-areas:
+      "home"
+      "work"
+      "about"
+      "discount";
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-size: cover;
+  }
+  header {
+    grid-template-areas:
+      "phone"
+      "email"
+      "address";
+  }
+  .header-buttons {
+    margin: 1px;
+    padding: 0px;
+  }
+  .nav-buttons {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  #navbar {
+    display: grid;
+    grid-template-areas:
+      "home"
+      "work"
+      "about"
+      "discount";
+  }
+}
