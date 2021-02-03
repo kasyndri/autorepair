@@ -65,15 +65,18 @@ header {
 #hornsimg {
   display: inline;
 }
-#oembanner {
+.oem-banner {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 5px;
 }
-#oembanner img {
+.oem-banner img {
   margin-left: 2px;
   margin-right: 2px;
+}
+div.mobile-banner {
+  display: none;
 }
 #home {
   grid-area: "home";
@@ -187,6 +190,12 @@ header {
       "about"
       "discount";
   }
+  .full-banner img {
+    display: none;
+  }
+  div.mobile-banner {
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -214,5 +223,14 @@ header {
       "work"
       "about"
       "discount";
+  }
+  .full-banner > img {
+    display: none;
+  }
+  .mobile-banner > img {
+    display: flex;
+  }
+  h1 {
+    font-size: 32px;
   }
 }
