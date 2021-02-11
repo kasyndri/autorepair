@@ -11,6 +11,9 @@ a {
 #title {
   color: white;
 }
+h1 {
+  text-shadow: 0 0 2px black, 0 0 10px red;
+}
 .graphic-container {
   margin-top: 30px;
   margin-left: 10px;
