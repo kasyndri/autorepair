@@ -197,6 +197,9 @@ a.fa-twitter {
   background: #55ACEE;
   color: white;
 }
+.address {
+  margin-top: 3px;
+}
 /*#footer {
   position: absolute;
   bottom: 0;
