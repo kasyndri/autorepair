@@ -179,6 +179,9 @@ div.mobile-banner {
 
 }
 a.fa {
+  /*display: inline;
+  position: fixed;
+  bottom: 0%;*/
   padding: 20px;
   margin-bottom: 0px;
   font-size: 30px;
@@ -207,6 +210,13 @@ a.fa-twitter {
   height: 150px;
   border: 1px solid yellow;
 }*/
+
+@media screen and (min-width: 1920px) {
+  div.social-buttons {
+    position: fixed;
+    bottom: 0%;
+  }
+}
 @media screen and (max-width: 1400px) {
   .info-container {
       grid-gap: 60px;
