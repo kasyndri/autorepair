@@ -16,8 +16,8 @@ h1 {
 }
 .graphic-container {
   margin-top: 30px;
-  margin-left: 10px;
-  margin-right: 10px;
+  /*margin-left: 10px;
+  margin-right: 10px;*/
 }
 .slides {
   display: block;
@@ -44,4 +44,9 @@ h1 {
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (min-width: 1920px) {
+  div.bottom {
+    margin-bottom: 75px;
+  }
 }
